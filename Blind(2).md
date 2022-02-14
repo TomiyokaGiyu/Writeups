@@ -141,7 +141,7 @@ gadget executed.
 ```
 Let's put the stack address we got from previous step as stop_Gadget and run:- 
 ![](https://github.com/TomiyokaGiyu/Ctf-pictures/blob/main/Screenshot%20from%202022-02-14%2014-04-18.png?raw=true)
-Well it's good enough if our payload will be correct then 'No password will be printed' else just crash
+- Well it's good enough if our payload will be correct then 'No password will be printed' else just crash
 ```text
 [+] Stop Gadget:- 0x40070c
 ```
