@@ -32,7 +32,11 @@ When hacking software, there are three exploit scenarios:
 
 This work studies whether it is possible to attack the third case.
 
-The BROP attack makes it possible to write exploits without possessing the target's binary. It requires a stack overflow and a service that restarts after a crash. Based on whether a service crashes or not (i.e., connection closes or stays open), the BROP attack is able to construct a full remote exploit that leads to a shell. The BROP attack remotely leaks enough gadgets to perform the write system call, after which the binary is transferred from memory to the attacker's socket. Following that, a standard ROP attack can be carried out. Apart from attacking proprietary services, BROP is very useful in targeting open-source software for which the particular binary used is not public (e.g., installed from source setups, Gentoo boxes, etc.).
+The BROP attack makes it possible to write exploits without possessing the target's binary. It requires a stack overflow and a service that restarts after a
+crash. Based on whether a service crashes or not (i.e., connection closes or stays open), the BROP attack is able to construct a full remote exploit that leads to
+a shell. The BROP attack remotely leaks enough gadgets to perform the write system call, after which the binary is transferred from memory to the attacker's
+socket. Following that, a standard ROP attack can be carried out. Apart from attacking proprietary services, BROP is very useful in targeting open-source software
+for which the particular binary used is not public (e.g., installed from source setups, Gentoo boxes, etc.).
 ```
 So it's perfect for us let see the step of exploitation:- 
 
