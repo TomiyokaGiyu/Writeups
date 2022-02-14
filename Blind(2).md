@@ -280,9 +280,9 @@ Following are screenshots of blind.dump:-
 [Plt section]
 ![](https://github.com/TomiyokaGiyu/Ctf-pictures/blob/main/Screenshot%20from%202022-02-14%2014-50-51.png?raw=true)
 So we are using these Gadgets:-
-0x4006fb - call puts@plt
-0x601018 - Got entry of puts
-0x4006b6 - Main function starting
+- 0x4006fb - call puts@plt
+- 0x601018 - Got entry of puts
+- 0x4006b6 - Main function starting
 
 ### Get the Shell
 ```python
