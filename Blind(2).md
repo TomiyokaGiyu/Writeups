@@ -312,6 +312,11 @@ We are appending Main starting address to our payload so that we can again provi
 
 Now let's join everything in Final Exploit
 
+### Flag
+```text
+CTF{313f12378d33889716128e329457030182023d103ab648b072fa1e839713dab5}
+```
+
 ## Final_Exploit
 [Final Exploit](https://github.com/TomiyokaGiyu/Ctf-pictures/blob/main/final_exploit.py)
 
