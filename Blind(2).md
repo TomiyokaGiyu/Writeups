@@ -15,7 +15,7 @@ So we are provided a IP, port and a libc file in this challenge. When we execute
 $ nc 34.159.129.6 30550
 ```
 ![Executed file](https://github.com/TomiyokaGiyu/Ctf-pictures/blob/7e5d41a7f19d421e4dca4e3af2d6b372ac2d292f/Screenshot%20from%202022-02-14%2012-50-52.png?raw=true)
-So first it's print ***Are you blind my friend?*** then ***ask for input*** and then print ***No password for you***
+- So first it's print ***Are you blind my friend?*** then ***ask for input*** and then print ***No password for you***
 But if are input is too long then it doesn't print anything like this:-
 ![When input is too long](https://github.com/TomiyokaGiyu/Ctf-pictures/blob/55cc39f65bb5bf0c018b942ecbfb640f0a99413c/Screenshot%20from%202022-02-14%2013-08-24.png?raw=true)
 
