@@ -10,7 +10,7 @@ By Tomiyoka Giyu
 ## Description
 - Challenge name: Blindsight
 - Solves:38 pts: 236
-So we are provided a IP, port and a libc file in this challenge. When we execute in remote with:-
+- So we are provided a IP, port and a libc file in this challenge. When we execute in remote with:-
 ```text
 $ nc 34.159.129.6 30550
 ```
