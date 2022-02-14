@@ -47,7 +47,7 @@ So it's perfect for us let see the step of exploitation:-
  - Find a call to write.
  - Write the binary from memory to the socket.
  - Dump the symbol table from the downloaded binary to find calls to dup2, execve, and build shellcode.
-***We will modify the each step according to our requirement but this is the basic layout.***
+ - ***We will modify the each step according to our requirement but this is the basic layout.***
 SO let's Go to [Exploit](#Exploit)
 ## Exploit
 - Note:- The code provided here are just snippets to execute everything successfully GO to [Final Exploit](#Final_Exploit)
